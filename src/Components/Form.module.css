@@ -1,0 +1,123 @@
+.FormContainer{
+    width: 100%;
+    height: auto;
+   
+}
+.Form{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+}
+input{
+    width:100%;
+    padding: .6rem 1rem;
+    outline: none;
+    border: none;
+    border-top-left-radius: 1rem;
+    border-bottom-left-radius: 1rem;
+
+
+}
+.buttoncontainer{
+    width: fit-content;
+    height: auto;
+}
+.buttoncontainer button{
+    padding: .7rem 1rem;
+    outline: none;
+    border: none;
+    border-top-right-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+    background: linear-gradient(150deg,#164F8F,#002860,#63BAE5);
+    color: #E5F1FB;
+    cursor: pointer;
+}
+::placeholder{
+    color: #c7c7c7;
+}
+.todoTime{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items:baseline;
+    justify-content: flex-start;
+}
+.time{
+    font-size: .8rem;
+    color: #b6b6b6;
+}
+.task{
+    /* background-color:#002860; */
+    background: linear-gradient(190deg,#164F8F,#002860,#63BAE5);
+    padding: 1rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin-top: 2rem;
+    border-radius: 1rem;
+    row-gap: 1rem;
+}
+
+input[type="checkbox"] {
+    width: 20px;
+    height: 20px; 
+    margin-right: 10px; 
+    cursor: pointer;
+    transition: transform 0.3s ease; 
+    outline: none;
+    border: none;
+ 
+  }
+  
+  input[type="checkbox"]:checked {
+    transform: scale(1.2);
+  }
+  
+  input[type="checkbox"]:focus {
+    outline: none;
+    border: none; 
+  }
+  .left{
+    width: fit-content;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    color: #E5F1FB;
+  }
+  .rightTask{
+    width: fit-content;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    column-gap: 1rem;
+    color: #E5F1FB;
+    cursor: pointer;
+
+
+  }
+  .edit{
+    width: fit-content;
+    display: flex;
+    flex-direction: row;
+    justify-content:start;
+    align-items: center;
+    color: #E5F1FB;
+    cursor: pointer;
+  }
+  .delete{
+    width: fit-content;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+    color: #E5F1FB;
+    cursor: pointer;
+  }

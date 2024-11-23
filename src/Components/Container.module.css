@@ -1,0 +1,25 @@
+.ContainerBody{
+    width: 40%;
+    height: auto;
+    background: linear-gradient(165deg, #002860,#1F83C3);
+    margin: 3rem auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    padding: 1rem;
+    border-radius: 1rem;
+}
+@media (max-width:750px) {
+    .ContainerBody{
+        width: 70%; 
+        margin: 2rem auto;
+    }
+}
+@media (max-width: 480px) {
+    .ContainerBody {
+        width: 90%; 
+        margin: 1rem auto; 
+        padding: 0.5rem;
+    }
+}
